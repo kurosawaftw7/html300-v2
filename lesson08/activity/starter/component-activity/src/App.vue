@@ -21,9 +21,9 @@
 
 <template>
   <div id="app">
-    <section v-if="post">
+    <section v-if="posts">
       <post
-        v-for="post in post"
+        v-for="post in posts"
         v-bind:post="post"
         v-bind:key="post.id"
       >
