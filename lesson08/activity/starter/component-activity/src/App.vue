@@ -21,8 +21,15 @@
 
 <template>
   <div id="app">
-  
-    </div>
+    <section v-if="post">
+      <post
+        v-for="post in post"
+        v-bind:post="post"
+        v-bind:key="post.id"
+      >
+      </post>
+      </section>
+  </div>
 </template>
 
 <style>
