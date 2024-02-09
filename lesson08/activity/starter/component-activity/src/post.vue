@@ -11,7 +11,7 @@
   
 <script>
     export default {
-        name: 'post',
+        name: 'postArray',
         props: ['posts'],
     }
 </script>
